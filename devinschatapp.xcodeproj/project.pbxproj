@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4403CCFAB20BDA45945334 /* Pods_devinschatappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA042F889B4DD346BF4D2E2 /* Pods_devinschatappTests.framework */; };
+		3114E03C6F4F2E0C7C12B883 /* Pods_devinschatapp_devinschatappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F94313D24CC8D1D8E0AF79F /* Pods_devinschatapp_devinschatappUITests.framework */; };
 		9EADE6AB266C00E9004EA76F /* devinschatappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EADE6AA266C00E9004EA76F /* devinschatappApp.swift */; };
 		9EADE6AD266C00E9004EA76F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EADE6AC266C00E9004EA76F /* ContentView.swift */; };
 		9EADE6AF266C00EC004EA76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EADE6AE266C00EC004EA76F /* Assets.xcassets */; };
 		9EADE6B2266C00EC004EA76F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EADE6B1266C00EC004EA76F /* Preview Assets.xcassets */; };
 		9EADE6BD266C00EC004EA76F /* devinschatappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EADE6BC266C00EC004EA76F /* devinschatappTests.swift */; };
 		9EADE6C8266C00EC004EA76F /* devinschatappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EADE6C7266C00EC004EA76F /* devinschatappUITests.swift */; };
+		ECA58ED70F3C7B25871D3F2F /* Pods_devinschatapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC1339DE28375BCB82ADBCC /* Pods_devinschatapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FA042F889B4DD346BF4D2E2 /* Pods_devinschatappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devinschatappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC1339DE28375BCB82ADBCC /* Pods_devinschatapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devinschatapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F94313D24CC8D1D8E0AF79F /* Pods_devinschatapp_devinschatappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devinschatapp_devinschatappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79290FEF9552326960220FCF /* Pods-devinschatappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devinschatappTests.release.xcconfig"; path = "Target Support Files/Pods-devinschatappTests/Pods-devinschatappTests.release.xcconfig"; sourceTree = "<group>"; };
+		81A9D1B862E1179CC4193109 /* Pods-devinschatapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devinschatapp.debug.xcconfig"; path = "Target Support Files/Pods-devinschatapp/Pods-devinschatapp.debug.xcconfig"; sourceTree = "<group>"; };
+		822436B497AE71A35D335545 /* Pods-devinschatapp-devinschatappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devinschatapp-devinschatappUITests.debug.xcconfig"; path = "Target Support Files/Pods-devinschatapp-devinschatappUITests/Pods-devinschatapp-devinschatappUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9EADE6A7266C00E9004EA76F /* devinschatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devinschatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EADE6AA266C00E9004EA76F /* devinschatappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devinschatappApp.swift; sourceTree = "<group>"; };
 		9EADE6AC266C00E9004EA76F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,9 @@
 		9EADE6C3266C00EC004EA76F /* devinschatappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = devinschatappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EADE6C7266C00EC004EA76F /* devinschatappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devinschatappUITests.swift; sourceTree = "<group>"; };
 		9EADE6C9266C00EC004EA76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F15C4F4A010D42AFE5ED17 /* Pods-devinschatapp-devinschatappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devinschatapp-devinschatappUITests.release.xcconfig"; path = "Target Support Files/Pods-devinschatapp-devinschatappUITests/Pods-devinschatapp-devinschatappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5B0B179277403F2727E9337 /* Pods-devinschatappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devinschatappTests.debug.xcconfig"; path = "Target Support Files/Pods-devinschatappTests/Pods-devinschatappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC01F73D434128D2E2D1304E /* Pods-devinschatapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devinschatapp.release.xcconfig"; path = "Target Support Files/Pods-devinschatapp/Pods-devinschatapp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA58ED70F3C7B25871D3F2F /* Pods_devinschatapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4403CCFAB20BDA45945334 /* Pods_devinschatappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3114E03C6F4F2E0C7C12B883 /* Pods_devinschatapp_devinschatappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0EE7FA811799F90A9276F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC1339DE28375BCB82ADBCC /* Pods_devinschatapp.framework */,
+				3F94313D24CC8D1D8E0AF79F /* Pods_devinschatapp_devinschatappUITests.framework */,
+				1FA042F889B4DD346BF4D2E2 /* Pods_devinschatappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D761B01436914BC29439909 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81A9D1B862E1179CC4193109 /* Pods-devinschatapp.debug.xcconfig */,
+				EC01F73D434128D2E2D1304E /* Pods-devinschatapp.release.xcconfig */,
+				822436B497AE71A35D335545 /* Pods-devinschatapp-devinschatappUITests.debug.xcconfig */,
+				C0F15C4F4A010D42AFE5ED17 /* Pods-devinschatapp-devinschatappUITests.release.xcconfig */,
+				C5B0B179277403F2727E9337 /* Pods-devinschatappTests.debug.xcconfig */,
+				79290FEF9552326960220FCF /* Pods-devinschatappTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9EADE69E266C00E9004EA76F = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +118,8 @@
 				9EADE6BB266C00EC004EA76F /* devinschatappTests */,
 				9EADE6C6266C00EC004EA76F /* devinschatappUITests */,
 				9EADE6A8266C00E9004EA76F /* Products */,
+				9D761B01436914BC29439909 /* Pods */,
+				3D0EE7FA811799F90A9276F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EADE6CC266C00EC004EA76F /* Build configuration list for PBXNativeTarget "devinschatapp" */;
 			buildPhases = (
+				033D88B3E0F071460A7E901B /* [CP] Check Pods Manifest.lock */,
 				9EADE6A3266C00E9004EA76F /* Sources */,
 				9EADE6A4266C00E9004EA76F /* Frameworks */,
 				9EADE6A5266C00E9004EA76F /* Resources */,
+				79CF78A57202A093DA604A4E /* [CP] Embed Pods Frameworks */,
+				9565F7F1754266C03D2B8DBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EADE6CF266C00EC004EA76F /* Build configuration list for PBXNativeTarget "devinschatappTests" */;
 			buildPhases = (
+				5E9AED15627AFF8F31D23F13 /* [CP] Check Pods Manifest.lock */,
 				9EADE6B4266C00EC004EA76F /* Sources */,
 				9EADE6B5266C00EC004EA76F /* Frameworks */,
 				9EADE6B6266C00EC004EA76F /* Resources */,
@@ -172,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EADE6D2266C00EC004EA76F /* Build configuration list for PBXNativeTarget "devinschatappUITests" */;
 			buildPhases = (
+				136CBA14B567D9289E794C0A /* [CP] Check Pods Manifest.lock */,
 				9EADE6BF266C00EC004EA76F /* Sources */,
 				9EADE6C0266C00EC004EA76F /* Frameworks */,
 				9EADE6C1266C00EC004EA76F /* Resources */,
+				E4D7C0AE7EB25622C97805B1 /* [CP] Embed Pods Frameworks */,
+				70658FC55F61B7BB5A46A73C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033D88B3E0F071460A7E901B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-devinschatapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		136CBA14B567D9289E794C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-devinschatapp-devinschatappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9AED15627AFF8F31D23F13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-devinschatappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70658FC55F61B7BB5A46A73C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devinschatapp-devinschatappUITests/Pods-devinschatapp-devinschatappUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devinschatapp-devinschatappUITests/Pods-devinschatapp-devinschatappUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-devinschatapp-devinschatappUITests/Pods-devinschatapp-devinschatappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79CF78A57202A093DA604A4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devinschatapp/Pods-devinschatapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devinschatapp/Pods-devinschatapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-devinschatapp/Pods-devinschatapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9565F7F1754266C03D2B8DBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devinschatapp/Pods-devinschatapp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devinschatapp/Pods-devinschatapp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-devinschatapp/Pods-devinschatapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D7C0AE7EB25622C97805B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devinschatapp-devinschatappUITests/Pods-devinschatapp-devinschatappUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-devinschatapp-devinschatappUITests/Pods-devinschatapp-devinschatappUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-devinschatapp-devinschatappUITests/Pods-devinschatapp-devinschatappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EADE6A3266C00E9004EA76F /* Sources */ = {
@@ -414,6 +599,7 @@
 		};
 		9EADE6CD266C00EC004EA76F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A9D1B862E1179CC4193109 /* Pods-devinschatapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +622,7 @@
 		};
 		9EADE6CE266C00EC004EA76F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC01F73D434128D2E2D1304E /* Pods-devinschatapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +645,7 @@
 		};
 		9EADE6D0266C00EC004EA76F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B0B179277403F2727E9337 /* Pods-devinschatappTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +668,7 @@
 		};
 		9EADE6D1266C00EC004EA76F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79290FEF9552326960220FCF /* Pods-devinschatappTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +691,7 @@
 		};
 		9EADE6D3266C00EC004EA76F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822436B497AE71A35D335545 /* Pods-devinschatapp-devinschatappUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +712,7 @@
 		};
 		9EADE6D4266C00EC004EA76F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F15C4F4A010D42AFE5ED17 /* Pods-devinschatapp-devinschatappUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
